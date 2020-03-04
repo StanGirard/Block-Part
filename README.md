@@ -114,6 +114,21 @@ A worker that will look in the database for the results of the games and send it
 ![](images/Quotes.jpg)
 
 
+## Why so much cloud ?
+
+This project is more oriented towards security and scaling up and down easily.
+I think that the cloud can answer all the questions we have about this architecture.
+
+I've chosen to use mainly APIs from third parties because that will allow us to avoid maintenance.
+
+I've chosen to host everything on AWS so that we can easily create a script to deploy everything.
+We can use frameworks such as Terraform or Serverless to help us with that. 
+The goal would be to have architecture as code. 
+
+
+Best regards.
+
+
 
 
 
