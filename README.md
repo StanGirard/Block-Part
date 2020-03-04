@@ -50,6 +50,10 @@ On AWS we could use a mix of Lambda functions and/or EC2 with scaling up.
 - Lambda Functions: Higher cost but hypothetical infinite scaling up. Limited to a few languages. Higher cost but pay as you use.
 - EC2: Harder to implement a scaling up & down model but we can use it with any languages we like.
 
+At first, we should use lambda functions and when we achieve a critical mass we should move to EC2. Lambda functions will allow us to easily create a model that responds to our needs without having to worry about scaling.
+
+
+
 
 
 
