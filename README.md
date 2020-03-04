@@ -10,7 +10,7 @@
 
 ## Issues
 
-### Heavy fluctuation is traffic
+### Heavy fluctuation in traffic
 Betting online fluctuates heavily depending on the hour of the day. 
 For example, most of soccer games happen during the same time window. Therefore, it is imperative to have a scalable infrastructure.
 
