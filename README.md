@@ -54,7 +54,26 @@ At first, we should use lambda functions and when we achieve a critical mass we 
 
 #### KYC 
 
-Assuming that the project is only for the French population. FranceConnect should answer all of our needs. It provides us an API to easily authenticate & verify the identity of a user. It doesn't require any passport validation or other. The user just uses an account he already has that is validated to connect to our service. It could reduce the time for signup significantly.
+Assuming that the project is only for the French population. FranceConnect should answer all of our needs. It provides us an API to easily authenticate & verify the identity of a user. It doesn't require any passport validation or other. The user just uses an account he already has that is validated to connect to our service. It could reduce the time for signup significantly. Also, we wouldn't need to have a server running for KYC Validation, or pay a third party for validation, or recruit people to validate the passport.
+
+#### Oracle
+
+Infura seems to be a good choice for our needs. The Free Tier is fairly generous and allows us to easily interact with the blockchain via API.
+
+#### Webserver
+
+Our webserver should be hosted on AWS. Because the quotes beforehand and live calculations are done on AWS, to avoid additional cost we should host our webserver on AWS. 
+
+We could use:
+- AWS EC2: For hosting the front & the back
+- AWS Cloudfront: CDN to ensure that every user has fast access to our website
+- AWS RDS: For our SQL Database for storing quotes
+- AWS Cognito: For user authentification
+- AWS S3: For stocking files such as images
+- AWS DynamoDB: For a NoSQL Database for any information that doesn't require a SQL format - TO BE DEFINED
+
+
+
 
 
 
