@@ -26,3 +26,9 @@ Live quoting calculation varies depending on the games ongoing. If there are a l
 Depending on which country this project is for. We could either use FranceConnect or another KYC Provider. 
 - FranceConnect is a platform that guarantees the identity of a user by relying on existing accounts for which his identity has already been verified. This is as simple as connecting to their API and asking the user to connect with an officially approved account such as (Impots.gouv, ameli, etc.). It is free.
 - Other KYC Providers will probably charge us a fee, but we'll be able to select the information we want to test more precisely.
+
+#### Oracle
+Has an oracle on the Ethereum's Blockchain we need to provide accurate and validated information. 
+We could either have a self-hosted node, or we could use a third-party service to interact with the blockchain.
+Self-hosted node: We'll have to take care of it, make sure it is always running. Monitor the server it is running on, etc ...
+Third-Party service: We'll have to pay a fee, but we won't have to take care of the maintenance of the node. 
