@@ -52,6 +52,9 @@ On AWS we could use a mix of Lambda functions and/or EC2 with scaling up.
 
 At first, we should use lambda functions and when we achieve a critical mass we should move to EC2. Lambda functions will allow us to easily create a model that responds to our needs without having to worry about scaling.
 
+#### KYC 
+
+Assuming that the project is only for the French population. FranceConnect should answer all of our needs. It provides us an API to easily authenticate & verify the identity of a user. It doesn't require any passport validation or other. The user just uses an account he already has that is validated to connect to our service. It could reduce the time for signup significantly.
 
 
 
