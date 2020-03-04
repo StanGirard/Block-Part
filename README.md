@@ -52,15 +52,15 @@ On AWS we could use a mix of Lambda functions and/or EC2 with scaling up.
 
 At first, we should use lambda functions and when we achieve a critical mass we should move to EC2. Lambda functions will allow us to easily create a model that responds to our needs without having to worry about scaling.
 
-#### KYC 
+### KYC 
 
 Assuming that the project is only for the French population. FranceConnect should answer all of our needs. It provides us an API to easily authenticate & verify the identity of a user. It doesn't require any passport validation or other. The user just uses an account he already has that is validated to connect to our service. It could reduce the time for signup significantly. Also, we wouldn't need to have a server running for KYC Validation, or pay a third party for validation, or recruit people to validate the passport.
 
-#### Oracle
+### Oracle
 
-Infura seems to be a good choice for our needs. The Free Tier is fairly generous and allows us to easily interact with the blockchain via API.
+[https://infura.io/](Infura) seems to be a good choice for our needs. The Free Tier is fairly generous and allows us to easily interact with the blockchain via API.
 
-#### Webserver
+### Webserver
 
 Our webserver should be hosted on AWS. Because the quotes beforehand and live calculations are done on AWS, to avoid additional cost we should host our webserver on AWS. 
 
@@ -71,6 +71,24 @@ We could use:
 - AWS Cognito: For user authentification
 - AWS S3: For stocking files such as images
 - AWS DynamoDB: For a NoSQL Database for any information that doesn't require a SQL format - TO BE DEFINED
+
+#### Front
+
+The front should be done with ReactJS. It is one of the most mainstream frameworks for web development and it a perfect match for this kind of websites
+
+We can bootstrap the project with this boilerplate: [https://github.com/StanGirard/ReactBoilerplate](https://github.com/StanGirard/ReactBoilerplate)
+
+#### Back
+
+The back should be created in either Go or NodeJS.
+- Go: Good choice because AWS Lambda functions can also use go. Unify our stacks for the back
+- NodeJS - Express: Unify front and back.
+
+We'll use NodeJS because I have more technical knowledge with it than with Go.
+
+We can also bootstrap the project with this boilerplate: [https://github.com/StanGirard/ExpressBoilerplate](https://github.com/StanGirard/ExpressBoilerplate)
+
+
 
 
 
