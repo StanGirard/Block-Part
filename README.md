@@ -24,5 +24,5 @@ Live quoting calculation varies depending on the games ongoing. If there are a l
 
 #### KYC
 Depending on which country this project is for. We could either use FranceConnect or another KYC Provider. 
-FranceConnect is a platform that guarantees the identity of a user by relying on existing accounts for which his identity has already been verified. This is as simple as connecting to their API and asking the user to connect with an officially approved account such as (Impots.gouv, ameli, etc.). It is free.
-Other KYC Providers will probably charge us a fee, but we'll be able to select the information we want to test more precisely.
+- FranceConnect is a platform that guarantees the identity of a user by relying on existing accounts for which his identity has already been verified. This is as simple as connecting to their API and asking the user to connect with an officially approved account such as (Impots.gouv, ameli, etc.). It is free.
+- Other KYC Providers will probably charge us a fee, but we'll be able to select the information we want to test more precisely.
