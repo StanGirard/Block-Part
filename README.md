@@ -58,7 +58,7 @@ Assuming that the project is only for the French population. FranceConnect shoul
 
 ### Oracle
 
-[https://infura.io/](Infura) seems to be a good choice for our needs. The Free Tier is fairly generous and allows us to easily interact with the blockchain via API.
+[Infura](https://infura.io/) seems to be a good choice for our needs. The Free Tier is fairly generous and allows us to easily interact with the blockchain via API.
 
 ### Webserver
 
