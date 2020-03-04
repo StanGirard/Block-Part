@@ -60,6 +60,10 @@ Assuming that the project is only for the French population. FranceConnect shoul
 
 [Infura](https://infura.io/) seems to be a good choice for our needs. The Free Tier is fairly generous and allows us to easily interact with the blockchain via API.
 
+### API For Sports Dataprovider
+
+We'll have to look at different data providers for information on the games.
+
 ### Webserver
 
 Our webserver should be hosted on AWS. Because the quotes beforehand and live calculations are done on AWS, to avoid additional cost we should host our webserver on AWS. 
@@ -87,6 +91,20 @@ The back should be created in either Go or NodeJS.
 We'll use NodeJS because I have more technical knowledge with it than with Go.
 
 We can also bootstrap the project with this boilerplate: [https://github.com/StanGirard/ExpressBoilerplate](https://github.com/StanGirard/ExpressBoilerplate)
+
+#### Database
+
+AWS Aurora allows us to run a managed SQL database. Ensuring maximum availability and easy scaling.
+
+#### Authentification
+
+Accounts on the platform are very sensible, some user could have thousands of euros in currency at one time. Therefore using a validated and secure authentification such as AWS Cognito will ensure maximum security for our users.
+
+#### Storage
+
+If we need to store any images, documents, etc AWS S3 is the best choice.
+
+
 
 
 
