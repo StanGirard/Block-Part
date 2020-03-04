@@ -109,6 +109,10 @@ If we need to store any images, documents, etc AWS S3 is the best choice.
 A worker that will look in the database for the results of the games and send it to the Smart Contract via Infura
 
 
+## Diagram
+
+![](images/Quotes.jpg)
+
 
 
 
